@@ -1,0 +1,10 @@
+id,name,available_time_slots,preferred_time_slots,max_sessions_per_day
+I01,Prof. Ada,MON_09|MON_11|WED_09|WED_11|FRI_09,MON_09|WED_09,2
+I02,Prof. Turing,TUE_11|THU_11|TUE_13|THU_13,TUE_11|THU_11,2
+I03,Prof. Knuth,MON_13|WED_13|FRI_13,MON_13|WED_13,2
+I04,Prof. Tanenbaum,TUE_13|THU_13|FRI_11,TUE_13|THU_13,2
+I05,Prof. Codd,MON_11|WED_11|FRI_11,MON_11|WED_11,2
+I06,Prof. Hinton,TUE_09|THU_09|FRI_13,TUE_09|THU_09|FRI_13,2
+I07,Prof. Cerf,FRI_09|FRI_11|TUE_11,FRI_09,2
+I08,Prof. Diffie,FRI_11|FRI_13|THU_11,FRI_11,2
+I09,Prof. Euler,MON_09|WED_09|TUE_09|THU_09,MON_09|WED_09,2

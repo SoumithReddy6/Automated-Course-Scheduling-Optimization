@@ -1,0 +1,253 @@
+{
+  "courses": [
+    {
+      "id": "CS101",
+      "name": "Intro to Computer Science",
+      "instructor_id": "I01",
+      "enrollment": 45,
+      "sessions_per_week": 2,
+      "required_features": ["projector"],
+      "preferred_time_slots": ["MON_09", "WED_09"],
+      "allowed_time_slots": [],
+      "cluster_tag": "FOUNDATION",
+      "priority": 8,
+      "avoid_same_day_sessions": true
+    },
+    {
+      "id": "CS201",
+      "name": "Data Structures",
+      "instructor_id": "I02",
+      "enrollment": 40,
+      "sessions_per_week": 2,
+      "required_features": ["projector"],
+      "preferred_time_slots": ["TUE_11", "THU_11"],
+      "allowed_time_slots": [],
+      "cluster_tag": "FOUNDATION",
+      "priority": 8,
+      "avoid_same_day_sessions": true
+    },
+    {
+      "id": "CS301",
+      "name": "Algorithms",
+      "instructor_id": "I03",
+      "enrollment": 35,
+      "sessions_per_week": 2,
+      "required_features": ["projector"],
+      "preferred_time_slots": ["MON_13", "WED_13"],
+      "allowed_time_slots": [],
+      "cluster_tag": "ADVANCED",
+      "priority": 7,
+      "avoid_same_day_sessions": true
+    },
+    {
+      "id": "CS320",
+      "name": "Operating Systems",
+      "instructor_id": "I04",
+      "enrollment": 30,
+      "sessions_per_week": 2,
+      "required_features": ["projector"],
+      "preferred_time_slots": ["TUE_13", "THU_13"],
+      "allowed_time_slots": [],
+      "cluster_tag": "ADVANCED",
+      "priority": 6,
+      "avoid_same_day_sessions": true
+    },
+    {
+      "id": "CS330",
+      "name": "Databases",
+      "instructor_id": "I05",
+      "enrollment": 50,
+      "sessions_per_week": 2,
+      "required_features": ["projector"],
+      "preferred_time_slots": ["MON_11", "WED_11"],
+      "allowed_time_slots": [],
+      "cluster_tag": "SYSTEMS",
+      "priority": 7,
+      "avoid_same_day_sessions": true
+    },
+    {
+      "id": "CS340",
+      "name": "Machine Learning",
+      "instructor_id": "I06",
+      "enrollment": 55,
+      "sessions_per_week": 2,
+      "required_features": ["projector", "lab"],
+      "preferred_time_slots": ["TUE_09", "THU_09"],
+      "allowed_time_slots": [],
+      "cluster_tag": "AI",
+      "priority": 9,
+      "avoid_same_day_sessions": true
+    },
+    {
+      "id": "CS350",
+      "name": "Networks",
+      "instructor_id": "I07",
+      "enrollment": 28,
+      "sessions_per_week": 1,
+      "required_features": ["projector"],
+      "preferred_time_slots": ["FRI_09"],
+      "allowed_time_slots": [],
+      "cluster_tag": "SYSTEMS",
+      "priority": 5,
+      "avoid_same_day_sessions": true
+    },
+    {
+      "id": "CS360",
+      "name": "Cybersecurity",
+      "instructor_id": "I08",
+      "enrollment": 32,
+      "sessions_per_week": 1,
+      "required_features": ["projector"],
+      "preferred_time_slots": ["FRI_11"],
+      "allowed_time_slots": [],
+      "cluster_tag": "SYSTEMS",
+      "priority": 5,
+      "avoid_same_day_sessions": true
+    },
+    {
+      "id": "CS370",
+      "name": "Natural Language Processing",
+      "instructor_id": "I06",
+      "enrollment": 25,
+      "sessions_per_week": 1,
+      "required_features": ["projector", "lab"],
+      "preferred_time_slots": ["FRI_13"],
+      "allowed_time_slots": [],
+      "cluster_tag": "AI",
+      "priority": 7,
+      "avoid_same_day_sessions": true
+    },
+    {
+      "id": "MATH210",
+      "name": "Discrete Mathematics",
+      "instructor_id": "I09",
+      "enrollment": 60,
+      "sessions_per_week": 2,
+      "required_features": ["projector"],
+      "preferred_time_slots": ["MON_09", "WED_09"],
+      "allowed_time_slots": [],
+      "cluster_tag": "FOUNDATION",
+      "priority": 9,
+      "avoid_same_day_sessions": true
+    }
+  ],
+  "instructors": [
+    {
+      "id": "I01",
+      "name": "Prof. Ada",
+      "available_time_slots": ["MON_09", "MON_11", "WED_09", "WED_11", "FRI_09"],
+      "preferred_time_slots": ["MON_09", "WED_09"],
+      "max_sessions_per_day": 2
+    },
+    {
+      "id": "I02",
+      "name": "Prof. Turing",
+      "available_time_slots": ["TUE_11", "THU_11", "TUE_13", "THU_13"],
+      "preferred_time_slots": ["TUE_11", "THU_11"],
+      "max_sessions_per_day": 2
+    },
+    {
+      "id": "I03",
+      "name": "Prof. Knuth",
+      "available_time_slots": ["MON_13", "WED_13", "FRI_13"],
+      "preferred_time_slots": ["MON_13", "WED_13"],
+      "max_sessions_per_day": 2
+    },
+    {
+      "id": "I04",
+      "name": "Prof. Tanenbaum",
+      "available_time_slots": ["TUE_13", "THU_13", "FRI_11"],
+      "preferred_time_slots": ["TUE_13", "THU_13"],
+      "max_sessions_per_day": 2
+    },
+    {
+      "id": "I05",
+      "name": "Prof. Codd",
+      "available_time_slots": ["MON_11", "WED_11", "FRI_11"],
+      "preferred_time_slots": ["MON_11", "WED_11"],
+      "max_sessions_per_day": 2
+    },
+    {
+      "id": "I06",
+      "name": "Prof. Hinton",
+      "available_time_slots": ["TUE_09", "THU_09", "FRI_13"],
+      "preferred_time_slots": ["TUE_09", "THU_09", "FRI_13"],
+      "max_sessions_per_day": 2
+    },
+    {
+      "id": "I07",
+      "name": "Prof. Cerf",
+      "available_time_slots": ["FRI_09", "FRI_11", "TUE_11"],
+      "preferred_time_slots": ["FRI_09"],
+      "max_sessions_per_day": 2
+    },
+    {
+      "id": "I08",
+      "name": "Prof. Diffie",
+      "available_time_slots": ["FRI_11", "FRI_13", "THU_11"],
+      "preferred_time_slots": ["FRI_11"],
+      "max_sessions_per_day": 2
+    },
+    {
+      "id": "I09",
+      "name": "Prof. Euler",
+      "available_time_slots": ["MON_09", "WED_09", "TUE_09", "THU_09"],
+      "preferred_time_slots": ["MON_09", "WED_09"],
+      "max_sessions_per_day": 2
+    }
+  ],
+  "rooms": [
+    {
+      "id": "R101",
+      "name": "Hall 101",
+      "capacity": 65,
+      "features": ["projector"]
+    },
+    {
+      "id": "R102",
+      "name": "Hall 102",
+      "capacity": 50,
+      "features": ["projector"]
+    },
+    {
+      "id": "R201",
+      "name": "Lab 201",
+      "capacity": 60,
+      "features": ["projector", "lab"]
+    },
+    {
+      "id": "R301",
+      "name": "Seminar 301",
+      "capacity": 30,
+      "features": ["projector"]
+    }
+  ],
+  "time_slots": [
+    {"id": "MON_09", "day": "Mon", "start": "09:00", "end": "10:15", "order": 1},
+    {"id": "MON_11", "day": "Mon", "start": "11:00", "end": "12:15", "order": 2},
+    {"id": "MON_13", "day": "Mon", "start": "13:00", "end": "14:15", "order": 3},
+    {"id": "TUE_09", "day": "Tue", "start": "09:00", "end": "10:15", "order": 4},
+    {"id": "TUE_11", "day": "Tue", "start": "11:00", "end": "12:15", "order": 5},
+    {"id": "TUE_13", "day": "Tue", "start": "13:00", "end": "14:15", "order": 6},
+    {"id": "WED_09", "day": "Wed", "start": "09:00", "end": "10:15", "order": 7},
+    {"id": "WED_11", "day": "Wed", "start": "11:00", "end": "12:15", "order": 8},
+    {"id": "WED_13", "day": "Wed", "start": "13:00", "end": "14:15", "order": 9},
+    {"id": "THU_09", "day": "Thu", "start": "09:00", "end": "10:15", "order": 10},
+    {"id": "THU_11", "day": "Thu", "start": "11:00", "end": "12:15", "order": 11},
+    {"id": "THU_13", "day": "Thu", "start": "13:00", "end": "14:15", "order": 12},
+    {"id": "FRI_09", "day": "Fri", "start": "09:00", "end": "10:15", "order": 13},
+    {"id": "FRI_11", "day": "Fri", "start": "11:00", "end": "12:15", "order": 14},
+    {"id": "FRI_13", "day": "Fri", "start": "13:00", "end": "14:15", "order": 15}
+  ],
+  "options": {
+    "time_limit_seconds": 15,
+    "num_workers": 8,
+    "enable_fallback": true,
+    "objective_weights": {
+      "instructor_preference": 5,
+      "room_efficiency": 3,
+      "cluster_compactness": 4,
+      "course_priority": 2
+    }
+  }
+}

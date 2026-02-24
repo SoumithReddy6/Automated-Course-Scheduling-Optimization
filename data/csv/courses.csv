@@ -1,0 +1,11 @@
+id,name,instructor_id,enrollment,sessions_per_week,required_features,preferred_time_slots,allowed_time_slots,cluster_tag,priority,avoid_same_day_sessions
+CS101,Intro to Computer Science,I01,45,2,projector,MON_09|WED_09,,FOUNDATION,8,true
+CS201,Data Structures,I02,40,2,projector,TUE_11|THU_11,,FOUNDATION,8,true
+CS301,Algorithms,I03,35,2,projector,MON_13|WED_13,,ADVANCED,7,true
+CS320,Operating Systems,I04,30,2,projector,TUE_13|THU_13,,ADVANCED,6,true
+CS330,Databases,I05,50,2,projector,MON_11|WED_11,,SYSTEMS,7,true
+CS340,Machine Learning,I06,55,2,projector|lab,TUE_09|THU_09,,AI,9,true
+CS350,Networks,I07,28,1,projector,FRI_09,,SYSTEMS,5,true
+CS360,Cybersecurity,I08,32,1,projector,FRI_11,,SYSTEMS,5,true
+CS370,Natural Language Processing,I06,25,1,projector|lab,FRI_13,,AI,7,true
+MATH210,Discrete Mathematics,I09,60,2,projector,MON_09|WED_09,,FOUNDATION,9,true

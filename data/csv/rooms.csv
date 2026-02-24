@@ -1,0 +1,5 @@
+id,name,capacity,features
+R101,Hall 101,65,projector
+R102,Hall 102,50,projector
+R201,Lab 201,60,projector|lab
+R301,Seminar 301,30,projector
