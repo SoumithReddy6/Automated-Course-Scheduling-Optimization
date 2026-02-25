@@ -1,6 +1,6 @@
 fastapi==0.115.6
 uvicorn[standard]==0.34.0
-ortools==9.11.4210
+ortools==9.12.4544
 pydantic==2.10.6
 streamlit==1.41.1
 pandas==2.2.3
