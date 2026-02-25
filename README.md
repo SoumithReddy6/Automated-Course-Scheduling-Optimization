@@ -1,5 +1,5 @@
 # AI-Based Academic Scheduling Optimization Platform
-
+[![Live Demo](https://img.shields.io/badge/Streamlit-Live%20Demo-brightgreen?logo=streamlit)]([PASTE_YOUR_STREAMLIT_URL_HERE](https://automated-course-scheduling-optimization-escsohedmmlugagb6whus.streamlit.app))
 Production-style academic timetable optimization platform using Google OR-Tools CP-SAT, FastAPI, and optional Streamlit UI.
 
 ## What This Project Includes
